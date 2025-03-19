@@ -1,0 +1,48 @@
+# 🟢 MATLAB 관련 불필요한 파일 무시
+*.fig
+*.asv
+*.bak
+*.mexw32
+*.mexw64
+*.mexmaci64
+*.log
+*.slxc
+*.mdl
+*.sim
+*.mlappinstall
+*.autosave
+*.mat
+
+# MATLAB 디렉토리 무시
+Matlab_files/temp/
+Matlab_files/cache/
+
+# 🟢 Python 관련 불필요한 파일 무시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Python 가상환경 폴더 무시
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# 🟢 시스템 및 편집기 관련 파일 무시
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 🟢 Git 관리에서 제외할 데이터 파일 (필요 시 수정)
+processed_data/
+figures/
+Colormap_plotter_python/
+origin_pro_files/
+raw_videos/
+current_monitoring_profile/
